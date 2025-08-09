@@ -1,0 +1,15 @@
+[package]
+name = "VotingProject"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="a7e0942609e060f5245db1d84c48c58c7f382cb3b18397bd2fc6184161f456ea"
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
